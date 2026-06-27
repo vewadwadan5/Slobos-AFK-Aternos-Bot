@@ -1,14 +1,14 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "NEVER DIE",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
+    "ip": "autobots3.aternos.me",
     "port": 27586,
-    "version": "",
+    "version": "1.21.1",
     "try-creative": false
   },
   "position": {
@@ -32,7 +32,7 @@
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
-        "Subscribe to Slobos!",
+        "SHUBH CHUTIYA HAI - USSE BADA BOT PAIDA NHI HUA",
         "I like to play Minecraft!"
       ]
     },
@@ -60,7 +60,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -69,16 +69,16 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1520311753290944572/vJrwDQuT1_bVClHKYdnV17GXZLo22Wu7qIi-I8_kzaZbWRl4wG9Mz9a2PHYFyzu048ci",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
